@@ -131,16 +131,20 @@ a {
   margin-right: 10px;
 }
 
-.envelope-li:hover {
+.contact-header:hover {
   color: var(--font-hover-focus);
   fill: var(--font-hover-focus);
 }
 
-.envelope-li:focus {
+.contact-header:focus {
   color: var(--font-hover-focus);
   fill: var(--font-hover-focus);
 }
 
+.bg:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 .icon-lorem {
   background-color: #f5f4fa;
 }
@@ -178,7 +182,41 @@ a {
   padding-right: 15px;
 }
 
-header {
+.social {
+  display: flex;
+  fill: var(--font-hover-focus);
+  margin-bottom: 30px;
+  fill: #afb1b8;
+  margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  height: 44px;
+}
+
+.insta {
+  margin-right: 10px;
+}
+
+.facebook {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-media:hover,
+.social-media:focus {
+  fill: #ffffff;
+
+  background-color: var(--font-hover-focus);
+  border-radius: 50%;
+}
+
+.our-clients {
+  padding-right: 15px;
+  padding-left: 15px;
+  gap: 30px;
+}
+. header {
   border-bottom: 1px solid #ececec;
 }
 .what-we-do {
@@ -277,7 +315,7 @@ header {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  padding-top: 188px;
+  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -289,11 +327,43 @@ header {
   border: 1px solid #afb1b8;
 }
 
-.social-links {
-  margin-left: 32px;
-  margin-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 30px;
+.client:hover,
+.client:focus {
+  fill: var(--font-hover-focus);
+}
+
+.join-us {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0, 42px;
+  padding-left: 171px;
+  padding-top: 72px;
+}
+.social-footer {
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-footer:hover,
+.social-footer:focus {
+  background-color: var(--font-hover-focus);
+}
+.address-social {
+  display: flex;
+}
+
+.insta-footer {
+  margin-left: 70px;
+  margin-right: 10px;
+}
+
+.facebook-footer {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .name {
