@@ -187,8 +187,8 @@ a {
 
   padding-left: 32px;
   padding-right: 32px;
-  padding-bottom: 42px;
-  padding-top: 28px;
+  padding-bottom: 30px;
+  padding-top: 16px;
 }
 
 .twitter {
@@ -278,6 +278,10 @@ a {
   margin-bottom: auto;
   padding-top: 200px;
 }
+
+.title-center {
+  margin-left: 200px;
+}
 .type {
   font-size: 16px;
   font-weight: 700;
@@ -337,6 +341,9 @@ a {
 .client:hover,
 .client:focus {
   fill: var(--font-hover-focus);
+  border-radius: 4px;
+  border: 1px solid #2196f3;
+  cursor: pointer;
 }
 
 .join-us {
@@ -354,18 +361,16 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .social-footer:hover,
 .social-footer:focus {
   background-color: var(--font-hover-focus);
 }
-.address-social {
-  display: flex;
-}
 
 .insta-footer {
-  margin-left: 70px;
+  margin-left: 301px;
   margin-right: 10px;
 }
 
@@ -413,6 +418,9 @@ a {
 
 .web-footer {
   margin-top: 60px;
+}
+
+.icon-order {
 }
 
 .info-footer {
@@ -530,7 +538,7 @@ a {
 
 .background-top {
   background-color: var(--second-background-color);
-  width: 1600px;
+
   height: 600px;
 
   text-align: center;
